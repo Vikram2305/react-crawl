@@ -69,7 +69,7 @@ const Navbar: React.FC<NavbarProps> = ({ isOpen, toggleMenu, onValuesChange }) =
           <div className={`space-y-3 ${!isOpen && 'hidden'}`}>
             <input
               type="text"
-              placeholder="Put Your Valid Groq API Key"
+              placeholder="User Name"
               value={apiKey}
               onChange={handleApiKeyChange}// Notify parent
               
